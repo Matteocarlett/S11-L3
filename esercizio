@@ -1,0 +1,64 @@
+Pratica S11/L3
+
+Gli esercizi di oggi sono divisi in due attività autonome:
+Guardare i video TypeScript forniti per una migliore comprensione dell'argomento.
+Essere in grado di esporre una piccola presentazione di questi topic relativi a TypeScript:
+
+Spiegazione generica (Cos'è, a cosa serve, che problema risolve, differenze con JS semplice)
+Il compilatore TS (perché è necessario? e come si usa?)
+La Type Inference
+Il tipo ‘any’
+Il tipo Union
+Il tipo Tuple
+Le Interfaces in TS
+Types vs Interfaces
+I Generics
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+TypeScript è come una versione potenziata di JavaScript. Aggiunge un sistema di tipi, che significa che puoi dire al computer che tipo di dati stai usando. Questo rende il codice più solido e facile da capire.
+
+
+A cosa serve:
+Risolve il problema JS che non fa comunicare al computer che tipo di dati stai usando. TypeScript permette di farlo, trovando errori nel codice più facilmente durante lo sviluppo
+
+
+Differenze con JS semplice:
+JavaScript è un linguaggio più libero, TypeScript è più organizzato. Aggiunge cose come interfacce e tipi avanzati per rendere il codice più sicuro
+
+
+Il compilatore TypeScript:
+Il compilatore serve a tradurre il codice TypeScript in JavaScript, così può essere eseguito sul browser o server
+
+
+Come si usa:
+Basta usare il comando tsc per convertire il codice TypeScript in JavaScript. Aiuta a controllare che stai usando i tipi corretti
+
+
+Type Inference:
+TypeScript può capire automaticamente che tipo di dati stai usando, quindi non devi ripeterlo ogni volta. Questo rende il codice più breve e comprensibile
+
+
+Tipo 'any':
+Si usa 'any' quando non si conosce o non si specifica il tipo. Quando si assegna 'any' a una variabile, diciamo al compilatore TypeScript di non applicare alcuna restrizione di tipo su quella variabile.
+
+
+Tipo Union:
+Posso dire al computer che una variabile può essere di più tipi. Ad esempio, può essere un numero, una stringa ..
+
+
+Tipo Tuple:
+Una tuple è come un array con un numero fisso di elementi e ogni elemento può avere un tipo diverso
+
+
+Interfacce in TypeScript:
+Le interfacce aiutano a definire come dovrebbe essere fatto un oggetto. Le classi o gli oggetti possono implementare queste interfacce, garantendo che soddisfino determinate specifiche
+
+
+Types vs Interfaces:
+Le interfacce sono aperte a cambiamenti, i tipi sono più chiusi. Dipende da quanto vuoi essere flessibile nel tuo codice
+
+
+Generics:
+I generics ti permettono di scrivere codice flessibile che funziona con diversi tipi senza dover ripetere lo stesso codice
